@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="styles/materialize.min.css">
+	<link rel="stylesheet" href="styles/styles.min.css">
+	<title>Делопроизводство</title>
+</head>
+
+<body>
+	<!--SIDEBAR-->
+	<ul class="sidenav sidenav-fixed a-sidenav collapsible">
+		<h4>Делопроизводство</h4>
+		<div id="wrap_sidenav">
+			<li class="bold active"><a onclick="showContent('1')">Задание 1</a></li>
+
+			<li class="bold"><a onclick="showContent('2')">Задание 2</a></li>
+
+			<li class="bold">
+				<span class="waves-effect waves-orange list">Задание 3</span>
+
+				<ul class="listActive">
+					<li><a onclick="showContent('3_1')" class="waves-effect waves-orange">Форма Т1 для верстки</a></li>
+					<li><a onclick="showContent('3_2')" class="waves-effect waves-orange">Информация для ввода</a></li>
+					<li><a onclick="showContent('3_3')" class="waves-effect waves-orange">Подсказка</a></li>
+				</ul>
+			</li>
+
+			<li class="bold">
+				<span class="waves-effect waves-orange list">Задание 4</span>
+
+				<ul class="listActive">
+					<li><a onclick="showContent('4_1')" class="waves-effect waves-orange">Формирование таблицы</a></li>
+					<li><a onclick="showContent('4_2')" class="waves-effect waves-orange">Информация для ввода</a></li>
+				</ul>
+			</li>
+			<li class="bold"><a onclick="showContent('5')">Задание 5</a></li>
+
+			<li class="bold"><a onclick="showContent('6')">Задание 6</a></li>
+
+			<li class="bold"><a onclick="showContent('7')">Задание 7</a></li>
+
+			<li class="bold">
+				<span class="waves-effect waves-orange list">Задание 8</span>
+
+				<ul class="listActive">
+					<li><a onclick="showContent('8_1')" class="waves-effect waves-orange">Задание</a></li>
+					<li><a onclick="showContent('8_2')" class="waves-effect waves-orange">Лекция</a></li>
+					<li><a onclick="showContent('8_3')" class="waves-effect waves-orange">Штатное расписание</a></li>
+					<li><a onclick="showContent('8_4')" class="waves-effect waves-orange">Сроки хранения</a></li>
+					<li><a onclick="showContent('8_5')" class="waves-effect waves-orange">Номенклатуры сводной</a></li>
+					<li><a onclick="showContent('8_6')" class="waves-effect waves-orange">Номенклатуры подразделения</a></li>
+				</ul>
+			</li>
+
+			<li class="bold"><a onclick="showContent('9')">Задание 9</a></li>
+
+			<li class="bold"><a onclick="showContent('10')">Задание 10</a></li>
+
+			<li class="bold">
+				<span class="waves-effect waves-orange list">Задание 11 </span>
+
+				<ul class="listActive">
+					<li><a onclick="showContent('11_1')" class="waves-effect waves-orange">Технология работы</a></li>
+					<li><a onclick="showContent('11_2')" class="waves-effect waves-orange">ПР3_Регистрация</a></li>
+					<li><a onclick="showContent('11_3')" class="waves-effect waves-orange">Примеры заполнения</a></li>
+					<li><a onclick="showContent('11_4')" class="waves-effect waves-orange">Входящие документы</a></li>
+					<li><a onclick="showContent('11_5')" class="waves-effect waves-orange">Внутр. и исход.</a></li>
+				</ul>
+			</li>
+
+			<li class="bold">
+				<span class="waves-effect waves-orange list">Задание 12 </span>
+
+				<ul class="listActive">
+					<li><a onclick="showContent('12_1')" class="waves-effect waves-orange">Патентные права</a></li>
+					<li><a onclick="showContent('12_2')" class="waves-effect waves-orange">Требования к заявлению</a></li>
+					<li><a onclick="showContent('12_3')" class="waves-effect waves-orange">Товарные знаки</a></li>
+					<li><a onclick="showContent('12_4')" class="waves-effect waves-orange">Задание</a></li>
+				</ul>
+			</li>
+
+			<li class="bold"><a onclick="showContent('13')">Задание 13</a></li>
+
+			<li class="bold"><a onclick="showContent('14')">Задание 14</a></li>
+		</div>
+
+		<li class="bold last"><a href="https://vk.com/club174915782" target="_blank"
+				class="waves-effect waves-orange">Сообщество в ВК</a></li>
+	</ul>
+
+	<!--CONTENT-->
+	<main class="content" id="contentBody">
+		<object><embed id="pdf" src="../pdf/1.pdf" /></object>
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+	<script src="scripts/materialize.min.js"></script>
+	<script src="scripts/scripts.js"></script>
+</body>
+
+</html>
